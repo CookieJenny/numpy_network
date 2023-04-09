@@ -25,7 +25,7 @@ python search.py --learning_rates 0.01 0.001 0.0001 --hidden_sizes 50 100 200 --
 ```
 这将使用指定的超参数执行网格搜索，并使用找到的最佳超参数训练神经网络。 您可以根据需要修改超参数和搜索设置。
 
-# 3. 
+# 3. 测试代码
 要加载保存的模型checkpoint并评估其在测试集的性能，请使用以下命令：
 ```
 python test.py --checkpoint_path ./model.npz
